@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}/*.............................header*/
+ header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    height: 100%;
+    display: wrap;
+    
+ }
+ .navigations{
+    display: wrap;
+ }
+.navigations ul{
+    display: flex;
+    
+    display: wrap;
+}
+.navigations li{
+    list-style: none;
+   margin-left: 30px;
+   display: wrap;
+}
+.navigations a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: wrap;
+}
+.navigations a:hover{
+    color: gray;
+}
+/*.............................project*/
+.project{
+    margin-top: 100px;
+    margin-left: 40px;
+    display: wrap;
+}
+
+/*...............................section"*/
+
+
+.all{
+    grid-template-columns: repeat(auto-fill,minmax(300px,400px));
+    gap: 50px;
+    margin-top: 100px;
+    display: wrap;
+    border: 2px solid black;
+    margin: 20px 40px;
+    height: 300px;
+    width: 90%;
+ } 
+ .html{
+    padding-top: 10px;
+    margin-left: 20px; 
+ }
+ .para{
+    display: wrap;
+    margin-top: 30px;
+   font-size: 1.2rem;
+   margin-left: 40px;
+}
+.see_more{
+    
+    display: wrap;
+} 
+
+/*.............................btn*/
+
+ .btn{
+    height: 45px;
+    width: 250px;
+    text-align: center;
+    margin-left: 40px;
+   display: wrap;
+    font-weight: 500;
+    font-size: 1.3rem;
+    background-color: transparent;
+ }
+
+ /*.............................footer*/
+
+
+
+ /*..............................footer*/
+
+ .footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    display: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,400px));
+    margin-left: 20px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: 150px 70px;
+ }
+ .icons{
+    display: wrap;
+ }
+ .insta{
+    height: 30px;
+    padding-right: 10px;
+ }
+ .facebook{
+    height: 30px;
+ }
+ .github{
+    height: 30px;
+    padding-right: 10px;
+ }
+ .links {
+   display: flex;
+   text-align: center;
+   
+ }
+ .links h3{
+   padding-left: 30px;
+   font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0px 0px;
+ }
+
+  .footer2{
+   
+   display: wrap;
+   
+    grid-template-columns: repeat(auto-fill,minmax(200px,300px));
+  padding-left: 100px;
+   margin: 40px 0px;
+   
+ } 
+
+ .copyright{
+  display: flex;
+  
+ }
+  .copyright h2{
+   margin-top: 20px;
+   margin-left: 30px;
+  }
+ .copy{
+   height: 19px;
+   margin-top: 25px;
+   margin-left: 30px;
+ }
+ 
+ .last{
+    text-align: center;
+ }
